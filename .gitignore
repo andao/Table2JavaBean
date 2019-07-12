@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 bin/
 out/
 build/
@@ -17,3 +18,24 @@ META-INF/
 classes/*
 *DS_Store
 *.orig
+=======
+bin/
+out/
+build/
+.gradle/
+.idea/
+.classpath
+.project
+.metadata/
+.recommenders
+.settings/
+RemoteSystemsTempFiles/
+Servers/
+MANIFEST.MF
+META-INF/
+*.log
+/classes/*
+classes/*
+*DS_Store
+*.orig
+>>>>>>> bde2f1f774d6d19a64e155bf2f1c39b0c965f439
