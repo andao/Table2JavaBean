@@ -1,0 +1,28 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+group 'tojavaTrans'
+version '1.0-SNAPSHOT'
+
+repositories {
+	mavenLocal()
+    mavenCentral()
+}
+
+[compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+dependencies {
+    compile(
+            //数据库
+            'mysql:mysql-connector-java:5.1.38',
+            'com.alibaba:fastjson:1.2.3',
+            'com.google.guava:guava:19.0',
+            'commons-io:commons-io:2.5',
+			'commons-logging:commons-logging:1.2'
+            
+    )
+}
