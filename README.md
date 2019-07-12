@@ -1,6 +1,8 @@
 # Table2JavaBean
 根据数据库表生成对应的spring jpa 类型的java bean
 
+注：生成的dao中使用到了JpaSpecificationExecutor
+
 
 只需要配置上数据库连接地址，  生成的代码存放的位置既可以运行了。
 
